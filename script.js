@@ -26,7 +26,6 @@ const getPaginationNumbers=()=>{
 };
 
 
-
 const setCurrentPage=(pageNum)=>{
     currentPage=pageNum;
 
