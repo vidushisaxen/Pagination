@@ -20,11 +20,27 @@
 // let result = reverse("hii");
 // console.log(result);
 
-function num(a){
-    if(a%2==0)
-    console.log("Even")
-else
-console.log("Odd");
-}
-num(9);
+// function num(a){
+//     if(a%2==0)
+//     console.log("Even")
+// else
+// console.log("Odd");
+// }
+// num(9);
 
+// function leapyear(year){
+//     if(year%4==0 && year%100!==0 || year%400==0)
+//     return"Leap Year"
+//     return "Not a leap year"
+// }
+
+// let x= leapyear(1999)
+// console.log(x);
+
+
+let arr= [7,8,34,78,56,34,54,12,32];
+let sum=0;
+for(let i=0;i<arr.length;i++){
+    sum+=arr[i];
+}
+console.log(sum);
