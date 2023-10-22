@@ -10,6 +10,7 @@ const pageCount = Math.ceil(items.length/paginationLimit);
 let currentPage=1;
 
 
+
 const addPageNumber= (index)=>{
     const pageNumber = document.createElement("button");
     pageNumber.className="pagination-number";
@@ -53,6 +54,7 @@ const handleactivePageNumber=()=>{
         }
     });
 };
+
 
 const disableButton=(button)=>{
     button.classList.add("disabled");
