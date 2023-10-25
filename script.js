@@ -11,6 +11,7 @@ let currentPage=1;
 
 
 
+
 const addPageNumber= (index)=>{
     const pageNumber = document.createElement("button");
     pageNumber.className="pagination-number";
