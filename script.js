@@ -82,8 +82,6 @@ const handlePageButtonsStatus=()=>{
 
 }
 
-
-
 window.addEventListener("load",()=>{
     getPaginationNumbers();
     setCurrentPage(1);
