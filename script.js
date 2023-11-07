@@ -42,6 +42,7 @@ const setCurrentPage=(pageNum)=>{
     });
 };
 
+
 const handleactivePageNumber=()=>{
     document.querySelectorAll(".pagination-number").forEach((button)=>{
         button.classList.remove("active");
