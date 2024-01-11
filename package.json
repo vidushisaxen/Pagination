@@ -1,0 +1,23 @@
+{
+  "name": "glidepage",
+  "version": "1.0.0",
+  "description": "It is apackage for applying pagination in projects.",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidushisaxen/Pagination.git"
+  },
+  "keywords": [
+    "pagination",
+    "glidepage"
+  ],
+  "author": "Vidushi Saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidushisaxen/Pagination/issues"
+  },
+  "homepage": "https://github.com/vidushisaxen/Pagination#readme"
+}
