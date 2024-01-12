@@ -90,6 +90,7 @@ window.addEventListener("load",()=>{
 
     nextButton.addEventListener("click",()=>{
         setCurrentPage(currentPage+1);
+        
     })
 
     document.querySelectorAll(".pagination-number").forEach((button)=>{
