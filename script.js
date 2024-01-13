@@ -23,11 +23,8 @@ const getPaginationNumbers=()=>{
         addPageNumber(i);
     }
 };
-
-
 const setCurrentPage=(pageNum)=>{
     currentPage=pageNum;
-
     handleactivePageNumber();
     handlePageButtonsStatus();
 
@@ -41,8 +38,6 @@ const setCurrentPage=(pageNum)=>{
         }
     });
 };
-
-
 const handleactivePageNumber=()=>{
     document.querySelectorAll(".pagination-number").forEach((button)=>{
         button.classList.remove("active");
@@ -90,7 +85,7 @@ window.addEventListener("load",()=>{
 
     nextButton.addEventListener("click",()=>{
         setCurrentPage(currentPage+1);
-        
+
     })
 
     document.querySelectorAll(".pagination-number").forEach((button)=>{
