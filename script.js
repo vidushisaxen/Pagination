@@ -5,7 +5,6 @@ const prevButton = document.getElementById("previous-button");
 const nextButton = document.getElementById("next-button");
 
 const paginationLimit = 10;
-
 const pageCount = Math.ceil(items.length/paginationLimit);
 let currentPage=1;
 
