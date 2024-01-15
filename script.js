@@ -71,9 +71,7 @@ const handlePageButtonsStatus=()=>{
     }else{
         enableButton(nextButton);
     }
-
 }
-
 window.addEventListener("load",()=>{
     getPaginationNumbers();
     setCurrentPage(1);
